@@ -1,0 +1,21 @@
+.home{
+    height: 80vh;
+    padding: 10px;
+    background-color: #ddccff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:  #330099;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #ddccff;
+    border: 1px solid #ddccff;
+    box-shadow: 0 0 5px 3px #ddccff;
+}
+.home img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}

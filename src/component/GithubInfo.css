@@ -1,0 +1,56 @@
+.githubinfo{
+ padding: 7px;
+ background-color: #ddccff;
+ border: 1px solid #ddccff;
+ border-radius: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ box-shadow: 0 0 5px 3px #ddccff;
+}
+
+.user-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    color: #330099;
+    padding: 10px;
+}
+.user-details img{
+    margin-top: 1em;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px dashed black;
+
+}
+.user-details h1{
+    font-weight: 100;
+    text-align: center;
+}
+span{
+    font-weight: bolder;
+
+}
+.user-details p{
+    text-transform: capitalize;
+
+}
+.git-link{
+    margin-top: 1em;
+    background-color: #330099 ;
+    color: #eee;
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: none;
+    width: 120px;
+    border-radius: 7px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid  #330099;
+}

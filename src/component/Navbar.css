@@ -1,0 +1,16 @@
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ddccff;
+
+    box-shadow: 0 0 5px 3px #ddccff;
+    height: 60px;
+}
+.nav-links .link{
+    text-decoration: none;   
+    font-size: 18px;
+    border-right: 1px solid #ddccff;
+    padding: 5px;
+    text-align:center;
+}
