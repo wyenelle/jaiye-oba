@@ -1,16 +1,15 @@
 .about{
     height: 80vh;
     padding: 10px;
-    background-color: #ddccff;
+    background-color: black;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color:  #330099;
+    color:  #eee;
     font-weight: 600;
     font-size: 18px;
-    background-color: #ddccff;
-    border: 1px solid #ddccff;
-    box-shadow: 0 0 5px 3px #ddccff;
+    border: 1px solid black;
+    box-shadow: 0 0 5px 3px lightgray;
 }

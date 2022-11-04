@@ -22,9 +22,9 @@ const Github = () => {
   return (
     <div className='gitbub'>
         <main>
-{loading && !data ? 'loading.....' : (
+{loading && data.length <=1   ? 'loading...' : (
     current_post.map( (item,idx) =><ErrorBoundary><Info loading={loading} idx={idx} item={item} data={data} key={item.id} /></ErrorBoundary> )
-)}
+)  }
 <Link className='git-link' to='/'>Back</Link> <br/>
     <Pagination 
     postPerPage={postPerPage}

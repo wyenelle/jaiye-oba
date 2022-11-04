@@ -1,21 +1,45 @@
 .home{
-    height: 80vh;
-    padding: 10px;
-    background-color: #ddccff;
+    height: 100vh;
+    width: 100%;
+    background-image: url('jaiye-unsplash.jpg');
+    background-size: 100% 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color:  #330099;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: #ddccff;
-    border: 1px solid #ddccff;
-    box-shadow: 0 0 5px 3px #ddccff;
 }
-.home img{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
+.home-bg{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    width: 100vw;
+
+}
+.home-info{
+    display: flex;
+    width: 70vw;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    height: 80vh;
+    text-align: center;
+    padding: 20px;
+}
+.home-info h3{
+    font-size: 24px;
+    font-weight: 800;
+}
+.home-info p{
+    font-size: 18px;
+    font-weight: 200;
+}
+.home-link{
+    color: #eee;
+    text-decoration: none;
+    border: 2px solid #eee;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 1em;
 }

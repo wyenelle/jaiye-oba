@@ -1,8 +1,11 @@
 .info{
     margin-bottom: 3em;
-    border: 1px solid white;
+    border: 1px solid black;
     height: 180px;
-    border-radius: 7px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 3px lightgray;
+    color: white;
+    background: black;
 }
 .info h1{
     font-weight: 500;
@@ -12,8 +15,9 @@
 }
 .info-link{
     text-decoration: none;
-    border: 1px solid #330099;
+    border: 1px solid lightgray;
     padding: 5px;
+    color: #eee;
     border-radius: 4px;
 
 

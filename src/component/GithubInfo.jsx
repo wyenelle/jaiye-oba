@@ -22,10 +22,13 @@ const  {owner: {html_url,avatar_url},visibility,language,topics,default_branch,c
                     <img src={avatar_url} alt='img' />
                     <h1>{full_name} </h1>
                     <h2> {html_url} </h2>
-                    <p><span>Repo Visibilty</span> : {visibility} </p>
-                    <p><span>Developed Using </span> :  {language} </p>
-                    <p><span >Branch</span> :{default_branch} </p>
-                    <span><span>Created</span> :  {created_at} </span>
+                    <div className="div">
+                      {`
+                      This Repository was develope using ${language === null ? '': language }. This is a ${visibility} repository created on ${created_at} on the ${default_branch} branch
+
+                      
+                      `}
+                    </div>
 
                     
                 </div>
