@@ -16,7 +16,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(function () {
-    fetch("https://api.github.com/users/whizzy93/repos")
+    fetch("https://api.github.com/users/jaiye-oba/repos")
       .then((res) => res.json())
       .then(response => setData(response))
       data && setLoading(false)
